@@ -1,0 +1,27 @@
+o@startuml
+
+class Juego
+class Kong
+class Mario
+class Barril
+class Escaleras
+Class Vigas
+class Colision
+class Brincar
+class Lanzado
+class Pisos
+
+Juego *-- Pisos
+Juego *-- Escaleras
+Pisos *-- Vigas
+
+Kong o-- Barril
+Mario o-- Escaleras
+Mario o-- Brincar
+
+Barril -|> Colision
+Barril -|> Lanzado
+I
+
+
+@enduml
