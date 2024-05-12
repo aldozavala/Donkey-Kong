@@ -3,11 +3,11 @@ source = src
 include = -Iinclude
 dependencias = -lftxui-screen -lftxui-dom -lftxui-component
 flags = -std=c++2a $(dependencias) $(include)
-run : $(output)/donkey
+run : $(output)/kong
 	./$<
 
-$(output)/donkey : $(source)/main.cpp
-	  g++ -o $@ $< $(flags)
+$(output)/kong : $(source)/main.cpp
+	g++ -o $@ $< $(flags)
 
 runPantalla: $(output)/pantalla
 	./$<
