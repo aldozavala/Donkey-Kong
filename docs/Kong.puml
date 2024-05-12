@@ -1,4 +1,4 @@
-o@startuml
+@startuml
 
 class Juego
 class Kong
@@ -21,7 +21,7 @@ Mario o-- Brincar
 
 Barril -|> Colision
 Barril -|> Lanzado
-I
+
 
 
 @enduml
