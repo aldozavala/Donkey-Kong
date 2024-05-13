@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
         pantalla.PixelAt(x,16).character = "⠀⠳⣄⡀⠀⣲⠞⠉⠹⢦⡀⠀⠀⠀⠀⢀⣼⣇⡀⢀⢨⡟⠀⠀";
         pantalla.PixelAt(x,17).character = "⠀⠀⠀⢹⠏⠇⠀⠀⠀⢸⠧⠤⠤⠶⠚⠋⠀⠈⠉⠙⠛⠁⠀⠀";
         pantalla.PixelAt(x,18).character = "⠀⠀⠀⢼⢰⠀⠀⠀⢰⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀";
-        pantalla.PixelAt(x,19).character = "⠀  ⠈⠛⠦⣤⡤⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀";
+        pantalla.PixelAt(x,19).character = "    ⠈⠛⠦⣤⡤⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀";
         pantalla.Print();
         cout<<pantalla.ResetPosition();
     }
